@@ -3,4 +3,4 @@ class Person {
 }
 
 console.log("Ejemplo 1: Crea una clase vacía")
-console.log(Person) // [class Person]
+console.log(Person) // [class Person] 
