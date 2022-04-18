@@ -1,5 +1,6 @@
 import Explorer from './explorer.js'
 
+// Clase Hija
 export default class Viajero extends Explorer {
   constructor(name, username, mission, cycle){
     super(name, username, mission)
