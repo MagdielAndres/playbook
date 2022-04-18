@@ -40,4 +40,23 @@ const issue = {
 
 console.log("Titulo del issue: " + issue.title);
 console.log("Title and author: " + issue.getTitleAndAuthor());
-console.log(issue.getGeneralInfo());
+console.log(issue.getGeneralInfo() + "\n");
+
+// Agregando el objeto de PullRequest
+const pullRequest = {
+    title: "Playbook",
+    branch: "main",
+    dateCreated: "18/04/2022-18:04p.m.",
+    status: "Activo",
+    repositoryNameAssociated: "MagdielAndres",
+    getStatus: function(){
+        return `Status: ${this.status}`
+    },
+    getTitleAndAuthor: function(){
+        return `Titulo de PullRequeste ${this.title} y el repositorio asociado ${this.repositoryNameAssociated}`
+    }
+}
+
+console.log("Nombre del PullRequest: " + pullRequest.title);
+console.log(pullRequest.getTitleAndAuthor());
+console.log("Estatus del PullRequest: " + pullRequest.status);
