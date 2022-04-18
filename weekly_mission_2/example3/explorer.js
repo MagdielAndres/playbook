@@ -1,3 +1,4 @@
+// Clase Padre
 export default class Explorer{
     constructor(name, username, mission){
      this.name = name
