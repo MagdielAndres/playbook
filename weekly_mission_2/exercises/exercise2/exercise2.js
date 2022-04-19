@@ -67,6 +67,7 @@ explorers.forEach(names => {
     console.log(namesExplors);
 })
 
+// Imprime el stack de cada explorer, usa FOR EACH
 console.log("\nStack de cada explorer");
 explorers.forEach((stacks) => {
     const namesExplors= stacks.name;
