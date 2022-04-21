@@ -1,0 +1,14 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "SPRINT 1: Creación de un modelo",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jes/bin/jest.js"
+  },
+  "author": "Magdiel andrés",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
