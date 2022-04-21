@@ -4,7 +4,7 @@ describe('Unit Tests for User class', () => {
     test('Create an USer object', () => {
         
         //Aquí se invoca el código que se va a usar en la app
-        const user = new User(1, "MagdielAndres", "Magdiel Andrés", "Biografía", "dateCreated", "lasUpdated");
+        const user = new User(1, "MagdielAndres", "Magdiel Andrés", "Biografía");
 
 
         // Aquí validas los resultados de ese código
@@ -14,7 +14,19 @@ describe('Unit Tests for User class', () => {
         expect(user.username).toBe("MagdielAndres");
         expect(user.user).toBe("Magdiel Andrés");
         expect(user.bio).toBe("Biografía");
-        expect(user.dateCreated).toBe("dateCreated");
-        expect(user.lasUpdated).toBe("lasUpdated")
+        expect(user.dateCreated).not.toBeUndefined(); // Verifica que el valor no sea definida
+        expect(user.lasUpdated).not.toBeUndefined(); // Verifica que el valor no sea definida
+    });
+
+    test('Requerimiento 2: Las propiedades `dateCreated` y `lastUpdated` deberán ser datos de tipo fecha', () => { 
+        
+        const user = new User(1, "MagdielAndres", "Magdiel Andrés", "Biografía");
+
+        expect(user.id).toBe(1);
+        expect(user.username).toBe("MagdielAndres");
+        expect(user.user).toBe("Magdiel Andrés");
+        expect(user.bio).toBe("Biografía");
+        expect(user.dateCreated).not.toBeUndefined(); // Verifica que el valor no sea definida
+        expect(user.lasUpdated).not.toBeUndefined(); // Verifica que el valor no sea definida
     });
 })
