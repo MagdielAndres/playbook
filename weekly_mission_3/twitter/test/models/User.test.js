@@ -38,4 +38,15 @@ describe('Unit Tests for User class', () => {
         expect(user.getDateCreated).not.toBeUndefined();
         expect(user.getLasUpdated).not.toBeUndefined();
     });
+
+    test('Requerimiento 4: add setters; setUsername y setBio, para actualizar dichas propiedades', () => { 
+        const user =  new User(1, "MagdielAndres", "Magdiel Andrés", "Biografía");
+
+        user.setUsername = "magdielandres";
+        expect(user.username).toBe("magdielandres");
+
+        user.setBio = "New bio";
+        expect(user.bio).toBe("New bio");
+
+    });
 })
