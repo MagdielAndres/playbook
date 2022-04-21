@@ -4,7 +4,7 @@
   "description": "SPRINT 1: Creación de un modelo",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/jes/bin/jest.js"
+    "test": "node ./node_modules/jest/bin/jest.js"
   },
   "author": "Magdiel andrés",
   "license": "ISC",
