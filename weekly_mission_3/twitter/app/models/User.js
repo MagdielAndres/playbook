@@ -7,6 +7,19 @@ class User {
         this.dateCreated = new Date();
         this.lasUpdated = new Date();
     }
+
+    get getUsername(){
+        return this.username;
+    }
+    get getBio(){
+        return this.bio;
+    }
+    get getDateCreated(){
+        return this.dateCreated;
+    }
+    get getLasUpdated(){
+        return this.lasUpdated;
+    }
 }
 
 module.exports = User;
