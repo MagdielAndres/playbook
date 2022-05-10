@@ -9,4 +9,4 @@ En este apartado podras checar las prácticas de la semana 4.
 |`Contribution Open Source`|4|[Link al repo](https://github.com/MagdielAndres/fizzbuzz-1)|
 |`Code Challenge`|5|[Link al repo](https://github.com/MagdielAndres/students)|
 |`Trello`|6|[Link al repo](https://github.com/MagdielAndres/APITrello)|
-|`Trello JS Fork`|7|[Link al repo](https://github.com/LaunchX-InnovaccionVirtual/MissionNodeJS)|
+|`Trello JS Fork`|7|[Link al repo](https://github.com/MagdielAndres/trello)|
